@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from matplotlib import font_manager
 
 # NanumGothic 폰트 경로 지정
-font_path = "/workspaces/blankapp250721/fonts/NanumGothic-Regular.ttf"
+font_path = "./fonts/NanumGothic-Regular.ttf"
 font_manager.fontManager.addfont(font_path)
 plt.rcParams['font.family'] = 'NanumGothic'
 plt.rcParams['axes.unicode_minus'] = False  # 마이너스 깨짐 방지
